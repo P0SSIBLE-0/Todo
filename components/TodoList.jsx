@@ -47,7 +47,7 @@ export default function TodoList(props) {
           className={`flex w-full  border-b py-2 border-neutral-200 slide-in delay-${index+1}00 cursor-pointer`}
           key={index}
         >
-          <button className={`w-5 h-5 rounded-full border-2 pl-[3px] ${e.completed? 'bg-gradient-to-r':'' } from-violet-400 to-blue-400 border-neutral-200 m-auto`} onClick={() => toggleCompletion(e)} >
+          <button className={`w-5 h-5 rounded-full border-2 pl-[2px] ${e.completed? 'bg-gradient-to-r':'' } from-violet-400 to-blue-400 border-neutral-200 m-auto`} onClick={() => toggleCompletion(e)} >
             <img src={e.completed ? checkIcon: ''} alt="" className="cursor-pointer" />
           </button>
           <span onClick={() => toggleCompletion(e)} className={`w-full p-2 outline-none text-[#242868db] dark:text-[#adb0c6] text-sm font-semibold lg:text-base ${e.completed ? 'line-through': ''}`}>

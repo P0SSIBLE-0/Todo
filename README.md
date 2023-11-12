@@ -1,9 +1,5 @@
 
-# Project Title
-
-A brief description of what this project does and who it's for
-
-Todo App
+# Todo App
 This is a simple and responsive Todo App that allows users to manage their tasks efficiently. The app provides a clean and intuitive interface with the following features:
 
 # Features

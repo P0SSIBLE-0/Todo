@@ -102,7 +102,7 @@ function App() {
             />
           </picture>
         </div>
-        <div className="w-[85%] lg:w-[36%] md:w-[50%] m-auto relative top-[-9rem] lg:top-[-13rem] md:top-[-7rem]">
+        <div className="w-[94%] lg:w-[36%] md:w-[50%] m-auto relative top-[-9rem] lg:top-[-13rem] md:top-[-7rem]">
           <div className="flex justify-between p-4 mb-8">
             <h1 className="text-white text-4xl font-semibold tracking-[1.2rem]">
               TODO
